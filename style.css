@@ -1,0 +1,87 @@
+
+body {
+    background-color: rgb(0, 183, 255);
+}
+h1 {text-align: center;}
+
+ 
+/* cart styling*/
+
+.PizzaHD1 {
+    padding: 1em;
+    background-color: whitesmoke;
+    display: flex;
+    border-radius: 3.5em;
+}
+
+.PizzaH1, .PizzaH2, .PizzaH3 {
+     width: 30px;
+}
+.PizzaH4 {
+    width: 44px;
+}
+
+.cart {
+    background-color: whitesmoke;
+    padding: 1em;
+    width: 60%;
+    margin: 0 20% 0 20%;
+    border-radius: 0px 0px 20px 20px ;
+    
+}
+
+table {
+    width: 100%;;
+}
+
+th,
+td {
+    text-align: center;
+    vertical-align: bottom;
+    padding: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 3.5em;
+}
+.Himg {
+    flex: 3;
+}
+
+p {
+    width: 95%;
+    margin: 1em 1.5% 5% 3%;
+}
+
+button:hover {
+    background-color: rgb(0, 183, 255);
+    color: aqua;
+    border: 0;
+}
+
+/*---------PaymentStyle-----------------*/
+
+.message {
+    padding: 1em;
+    font-weight: bold;
+    background-color: gold;
+    color: black;
+    width: 50%;
+    margin: 0 30% 0 23.5%;
+    border-radius: 1.5em;
+    text-align: center;
+}
+
+/* ALPINE PIZZA STYLE  */
+.pizzaListImg {
+    height: 40px;
+    border-radius: 50%;
+}
+.Buyers {
+    margin: 5px 0 0 0;
+}
+.menuHead {
+    text-align: center;
+}
+.mainMenu {
+    background-color: aquamarine;
+    border-radius: 2.5em;
+}
