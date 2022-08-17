@@ -8,7 +8,7 @@ document.addEventListener('alpine:init', () => {
         ClearingCart(){
                   setTimeout(() => {
                       this.Rest();
-                  }, 5mk000);
+                  }, 5000);
               },
 
         Rest() {
