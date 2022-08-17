@@ -56,7 +56,7 @@ document.addEventListener('alpine:init', () => {
           .get(url)
           .then((result) => {
             this.cart =result.data;
-            this.totalAmount = this.cart.total;
+            this.totalAmount = this.cart.total,toFix(2);
             // console.log(this.totalAmount);
           })
         },
