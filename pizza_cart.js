@@ -34,7 +34,7 @@ document.addEventListener('alpine:init', () => {
                     this.smallpizza = this.pizzas['11'];
                     this.mediumpizza = this.pizzas['7'];
                     this.largepizza = this.pizzas['22'];
-                    // console.log(this.largepizza)
+                    // console.log(this.mediumpizza)
         })
              .then(() => {
               return this.createCart();
